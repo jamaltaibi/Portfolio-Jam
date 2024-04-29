@@ -43,7 +43,7 @@ body{
 }
 
 .log{
-  height: 40px;
+ width: 4vw;
 }
 .burger-icon{
   height: 40px;
@@ -81,10 +81,7 @@ body{
 
 /* Section 1 */
 .S1{
-  height: 100vh;
-  width: 100vw;
   background-color: black;
-  margin: 0;
 }
 
 .hautDepage{
@@ -110,9 +107,16 @@ body{
   height: 35vh;
   margin-left: 10vw;
 }
+.droite{
+  width: 90vw;
+  height: 35vh;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: center;
+}
+
+
 .wheel {
-  width: 70vw;
-  height: 30vh;
   position: relative;
   border-radius: 50%;
   font-weight:bold;
@@ -156,7 +160,7 @@ body{
   border-radius: 40px;
 }
 .fus{
-  height: 15vh;
+  width: 10vw;
 }
 @keyframes rotate {
   from {
@@ -191,9 +195,6 @@ body{
 
 /* Section 2 */
 .S2{
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
   background-color: black;
 }
 .enTete{
@@ -255,9 +256,6 @@ body{
 
 /* Section 3*/
 .S3{
-  height: 100vh;
-  width: 100vw;
-  margin: 0;
   background-color: black;
 }
 .s3Partie2{
@@ -444,28 +442,9 @@ ul {
 .doub1{
     display: none;
   }
-.letter:nth-child(1) { transform: rotate(0deg) translate(80px) rotate(90deg); }
-.letter:nth-child(2) { transform: rotate(17deg) translate(80px) rotate(90deg); }
-.letter:nth-child(3) { transform: rotate(34deg) translate(80px) rotate(90deg); }
-.letter:nth-child(4) { transform: rotate(51deg) translate(80px) rotate(90deg); }
-.letter:nth-child(5) { transform: rotate(68deg) translate(80px) rotate(90deg); }
-.letter:nth-child(6) { transform: rotate(85deg) translate(80px) rotate(90deg); }
-.letter:nth-child(7) { transform: rotate(102deg) translate(80px) rotate(90deg); }
-.letter:nth-child(8) { transform: rotate(119deg) translate(80px) rotate(90deg); }
-.letter:nth-child(9) { transform: rotate(136deg) translate(80px) rotate(90deg); }
-.letter:nth-child(10) { transform: rotate(153deg) translate(80px) rotate(90deg); }
-.letter:nth-child(11) { transform: rotate(170deg) translate(80px) rotate(90deg); }
-.letter:nth-child(12) { transform: rotate(187deg) translate(80px) rotate(90deg); }
-.letter:nth-child(13) { transform: rotate(204deg) translate(80px) rotate(90deg); }
-.letter:nth-child(14) { transform: rotate(221deg) translate(80px) rotate(90deg); }
-.letter:nth-child(15) { transform: rotate(238deg) translate(80px) rotate(90deg); }
-.letter:nth-child(16) { transform: rotate(255deg) translate(80px) rotate(90deg); }
-.letter:nth-child(17) { transform: rotate(272deg) translate(80px) rotate(90deg); }
-.letter:nth-child(18) { transform: rotate(289deg) translate(80px) rotate(90deg); }
-.letter:nth-child(19) { transform: rotate(0deg) translate(-35%, -35%) rotate(0deg); } 
-.letter:nth-child(20) { transform: rotate(310deg) translate(80px) rotate(90deg); }
-.letter:nth-child(21) { transform: rotate(325deg) translate(80px) rotate(90deg); }
-.letter:nth-child(22) { transform: rotate(340deg) translate(80px) rotate(90deg); }
+.droite{
+  margin-left: 10vw;
+}
 
 .s2Partie2{
   width: 80vw;
@@ -476,9 +455,12 @@ ul {
 }
 
 /* Format Téléphone */
-@media screen and (min-width: 370px) and (max-width: 699px) {
+@media screen and (max-width: px) and (max-width: 699px) {
 .doub1{
     display: none;
+}
+.droite{
+  margin-left: 10vw;
 }
 .partie1{
   align-items: center;
@@ -525,9 +507,10 @@ ul {
   height: 70vh;
   margin-left: 10vw;
 }
-.wheel {
-  width: 25vw;
-  height: 50vh;
+.droite{
+  width: 50vw;
+  height: 70vh;
+  align-items: center;
 }
 .partie1{
   align-items: center;
@@ -574,13 +557,15 @@ ul {
 }
 .gauche{
   width: 40vw;
-  height: 60vh;
+  height: 70vh;
   margin-left: 10vw;
 }
-.wheel {
-  width: 40vw;
-  height: 60vh;
+.droite{
+  width: 50vw;
+  height: 70vh;
+  align-items: center;
 }
+
 .partie1{
   align-items: center;
 }
