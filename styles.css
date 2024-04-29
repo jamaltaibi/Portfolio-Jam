@@ -1,16 +1,16 @@
 body{
   margin: 0;
-  background-color: white;
+  color: black;
 }
 
 /* Header */
 .sidenav {
   height: 10vh;
-  width: 40vw;
+  width: 60vw;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: -40vw;
+  right: -60vw;
   background-color: black;
   padding-top: 8vh;
   transition: left 0.5s ease;
@@ -18,6 +18,7 @@ body{
 .sidenav.active {
   right: 0;
 }
+
 .logo{
   height: 20vh;
   width: 10vw;
@@ -40,12 +41,13 @@ body{
   justify-content: flex-end;
   align-items: center;
 }
+
 .log{
   height: 40px;
 }
 .burger-icon{
-  height: 5vh;
-  width: 5vw;
+  height: 40px;
+  width: 35px;
 }
 .outer1 {
   left: 64%;
@@ -84,6 +86,7 @@ body{
   background-color: black;
   margin: 0;
 }
+
 .hautDepage{
   width: 100vw;
   height: 20vh;
@@ -101,13 +104,14 @@ body{
   display: flex;
   justify-content: center;
 }
+
 .gauche{
   width: 90vw;
   height: 35vh;
   margin-left: 10vw;
 }
 .wheel {
-  width: 90vw;
+  width: 70vw;
   height: 30vh;
   position: relative;
   border-radius: 50%;
@@ -115,18 +119,9 @@ body{
   color: #D84B0F;
   animation: rotate 10s linear infinite;
 }
-.accroche{
-  font-size: 0.5rem;
-  margin: 0;
-  height: 10vh;
-  width: 80vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+
 .s1Text{
-  height: 20vh;
+  height: 30vh;
   margin: 0;
 }
 .doub{
@@ -135,23 +130,18 @@ body{
   display: flex;
   align-items: center;
 }
-.letter {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 1.5em;
-}
+
 .decouv{
   color: black;
   font-weight:bold;
-  font-size: 0.6rem;
+  font-size: 2vw;
 }
 .out{
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 41%;
+  top: 50%;
   left: 8%;
   border-radius: 40px;
   width: 26%;
@@ -176,28 +166,28 @@ body{
     transform: rotate(360deg);
   }
 }
-.letter:nth-child(1) { transform: rotate(0deg) translate(100px) rotate(90deg); }
-.letter:nth-child(2) { transform: rotate(17deg) translate(100px) rotate(90deg); }
-.letter:nth-child(3) { transform: rotate(34deg) translate(100px) rotate(90deg); }
-.letter:nth-child(4) { transform: rotate(51deg) translate(100px) rotate(90deg); }
-.letter:nth-child(5) { transform: rotate(68deg) translate(100px) rotate(90deg); }
-.letter:nth-child(6) { transform: rotate(85deg) translate(100px) rotate(90deg); }
-.letter:nth-child(7) { transform: rotate(102deg) translate(100px) rotate(90deg); }
-.letter:nth-child(8) { transform: rotate(119deg) translate(100px) rotate(90deg); }
-.letter:nth-child(9) { transform: rotate(136deg) translate(100px) rotate(90deg); }
-.letter:nth-child(10) { transform: rotate(153deg) translate(100px) rotate(90deg); }
-.letter:nth-child(11) { transform: rotate(170deg) translate(100px) rotate(90deg); }
-.letter:nth-child(12) { transform: rotate(187deg) translate(100px) rotate(90deg); }
-.letter:nth-child(13) { transform: rotate(204deg) translate(100px) rotate(90deg); }
-.letter:nth-child(14) { transform: rotate(221deg) translate(100px) rotate(90deg); }
-.letter:nth-child(15) { transform: rotate(238deg) translate(100px) rotate(90deg); }
-.letter:nth-child(16) { transform: rotate(255deg) translate(100px) rotate(90deg); }
-.letter:nth-child(17) { transform: rotate(272deg) translate(100px) rotate(90deg); }
-.letter:nth-child(18) { transform: rotate(289deg) translate(100px) rotate(90deg); }
+.letter:nth-child(1) { transform: rotate(0deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(2) { transform: rotate(17deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(3) { transform: rotate(34deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(4) { transform: rotate(51deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(5) { transform: rotate(68deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(6) { transform: rotate(85deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(7) { transform: rotate(102deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(8) { transform: rotate(119deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(9) { transform: rotate(136deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(10) { transform: rotate(153deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(11) { transform: rotate(170deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(12) { transform: rotate(187deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(13) { transform: rotate(204deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(14) { transform: rotate(221deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(15) { transform: rotate(238deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(16) { transform: rotate(255deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(17) { transform: rotate(272deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(18) { transform: rotate(289deg) translate(10vw) rotate(90deg); }
 .letter:nth-child(19) { transform: rotate(0deg) translate(-35%, -35%) rotate(0deg); } 
-.letter:nth-child(20) { transform: rotate(310deg) translate(100px) rotate(90deg); }
-.letter:nth-child(21) { transform: rotate(325deg) translate(100px) rotate(90deg); }
-.letter:nth-child(22) { transform: rotate(340deg) translate(100px) rotate(90deg); }
+.letter:nth-child(20) { transform: rotate(310deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(21) { transform: rotate(325deg) translate(10vw) rotate(90deg); }
+.letter:nth-child(22) { transform: rotate(340deg) translate(10vw) rotate(90deg); }
 
 /* Section 2 */
 .S2{
@@ -258,15 +248,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.compet{
-  margin: 0;
-  height: 17vh;
-  width: 25vw;
-  color: black;
-  font-weight: 700;
-  font-size: 0.3em;
-  text-align: center;
-}
+
 .compet:hover {
   transform: scale(1.2); 
 }
@@ -359,33 +341,60 @@ body{
 .icone{
   height: 25px;
 }
-.mail{
-  color: white;
-  font-size: 0.6em;
-  text-decoration: underline;
-}
-.s3about{
-  height: 20vh;
-  font-size: 0.5em;
-}
 
+
+
+/* Texte et liens */
+a {
+  text-decoration: none;
+  color: #D84B0F;
+  display: block;
+  transition: 0.3s;
+  font-size: 1.4vw;
+}
 h1{
-  font-size: 1.3em;
-  height: 5vh;
+  font-size: 4.5vw;
   margin: 0;
   font-weight: bold;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
 }
+p{
+  font-size: 1.8vw;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.decouv{
+  color: black;
+  font-weight:bold;
+  font-size: 1.4vw;
+}
+.letter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3vw;
+}
+.accroche{
+  font-size: 1.2vw;
+  margin: 0;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 h2{
-  font-size: 1.1em;
+  font-size: 4vw;
   margin: 0;
   color: #488FA4;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-shadow: 0px 0px 0 #488FA4, -1px -1px 0px #8B4693, -2px -2px 0px #8B4693, -3px -3px 0px #8B4693, -4px -4px 0px #824B90, -5px -5px 0px #824B90, -6px -6px 0px #824B90, -7px -7px 0px #75508D, -8px -8px 0px #75508D, -9px -9px 0px #6F538C, -10px -10px 0px #70528C, -11px -11px 0px #575D86, -12px -12px 0px #4C6283, -13px -13px 0px #496382, -14px -14px 0px #406780, -15px -15px 0px #336C7D, -16px -16px 0px #488FA4, -16px -16px 0px #488FA4;
 }
 h3{
-  font-size: 0.9em;
+  font-size: 3vw;
   margin: 0;
   height: 5vh;
   color: #D84B0F;
@@ -394,7 +403,7 @@ h3{
   align-items: center;
 }
 h4{
-  font-size: 0.7em;
+  font-size: 2vw;
   margin: 0;
   height: 7vh;
   color: black;
@@ -402,18 +411,25 @@ h4{
   justify-content: center;
   align-items: center;
 }
-p{
-  font-size: 0.8em;
+.compet{
+  margin: 0;
+  height: 17vh;
+  width: 25vw;
+  color: black;
+  font-weight: 700;
+  font-size: 1.2vw;
+  text-align: center;
+}
+.mail{
   color: white;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.6em;
+  text-decoration: underline;
 }
-a {
-  text-decoration: none;
-  color: #D84B0F;
-  display: block;
-  transition: 0.3s;
-  font-size: 0.8rem;
+.s3about{
+  height: 20vh;
+  font-size: 1vw;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -460,7 +476,7 @@ ul {
 }
 
 /* Format Téléphone */
-@media screen and (min-width: 370px) and (max-width: 668px) {
+@media screen and (min-width: 370px) and (max-width: 699px) {
 .doub1{
     display: none;
 }
@@ -471,45 +487,6 @@ ul {
   width: 80vw;
   margin-left: 10vw;
   flex-wrap: wrap;
-}
-
-h1{
-  font-size: 1.7em;
-}
-h2{
-font-size: 1.5em;
-}
-h3{
-  font-size: 1.3em;
-}
-h4{
-  font-size: 1.1em;
-}
-
-p{
- font-size: 1em;
-}
-a{
-  font-size: 1em;
-}
-
-.decouv{
-  font-size: 0.8em;
-}
-.letter{
-  font-size: 1.8em;
-}
-.compet{
-  font-size: 0.5em;
-}
-.accroche{
-  font-size: 0.7em;
-}
-.s3about{
-  font-size: 0.7em;
-}
-.mail{
-  font-size: 0.7em;
 }
 
 .aboutme{
@@ -532,7 +509,7 @@ a{
 }
 
 /* Format Tablette */
-@media screen and (min-width: 669px) and (max-width: 1024px){
+@media screen and (min-width: 700px) and (max-width: 1024px){
 .menu{
   display: none;
 }
@@ -541,11 +518,11 @@ a{
 }
 .présentation{
   display: flex;
-  height: 60vh;
+  height: 70vh;
 }
 .gauche{
   width: 40vw;
-  height: 60vh;
+  height: 70vh;
   margin-left: 10vw;
 }
 .wheel {
@@ -561,40 +538,6 @@ a{
   flex-wrap: wrap;
 }
 
-h1{
-  font-size: 2em;
-}
-h2{
-  font-size: 1.8em;
-}
-h3{
-  font-size: 1.5em;
-}
-h4{
-  font-size: 1.3em;
-}
-p{
-  font-size: 1.2em;
-}
-a{
-  font-size: 0.8em;
-}
-
-.decouv{
-  font-size: 1em;
-}
-.letter{
-  font-size: 1.8em;
-}
-.compet{
-  font-size: 0.7em;
-}
-.accroche{
-  font-size: 1rem;
-}
-.s3about{
-  font-size: 1em;
-}
 .moi{
   height: 65px;
 }
@@ -627,7 +570,7 @@ a{
 }
 .présentation{
   display: flex;
-  height: 60vh;
+  height: 70vh;
 }
 .gauche{
   width: 40vw;
@@ -655,41 +598,11 @@ a{
   width: 25vw;
 }
 
-h1{
-  font-size: 2.5em;
-}
-h2{
-  font-size: 2em;
-}
-h3{
-  font-size: 1.8em;
-}
-h4{
-  font-size: 1.6em;
-}
-p{
-  font-size: 1.3em;
-}
-a{
-  font-size: 1em;
-}
 
-.decouv{
-  font-size: 1.2em;
-}
-.letter{
-  font-size: 2em;
-}
 .compet{
-  font-size: 0.9em;
   width: 15vw;
 }
-.accroche{
-  font-size: 1.1rem;
-}
-.s3about{
-  font-size: 1.1em;
-}
+
 .cont{
   width: 25vw;
 }
