@@ -144,16 +144,16 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 8%;
+  position: relative;
+  bottom: 25%;
+  right: 52%;
   border-radius: 40px;
-  width: 26%;
+  width: 50%;
   height: 5vh;
   background-color: #D84B0F;
 }
 .in{
-  width: 28%;
+  width: 50%;
   height: 5vh;
   background-color: black;
   border: 2px solid #FF5252;
@@ -348,24 +348,24 @@ a {
   color: #D84B0F;
   display: block;
   transition: 0.3s;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 h1{
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin: 0;
   font-weight: bold;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
 }
 p{
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .decouv{
   color: black;
   font-weight:bold;
-  font-size: 1.4vw;
+  font-size: 1.2vw;
 }
 .letter {
   position: absolute;
@@ -374,7 +374,7 @@ p{
   font-size: 3vw;
 }
 .accroche{
-  font-size: 1.2vw;
+  font-size: 1vw;
   margin: 0;
   width: 80vw;
   display: flex;
@@ -385,7 +385,7 @@ p{
 
 
 h2{
-  font-size: 4vw;
+  font-size: 3.5vw;
   margin: 0;
   color: #488FA4;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -415,12 +415,12 @@ h4{
   width: 25vw;
   color: black;
   font-weight: 700;
-  font-size: 1.2vw;
+  font-size: 1vw;
   text-align: center;
 }
 .mail{
   color: white;
-  font-size: 0.6em;
+  font-size: 0.5em;
   text-decoration: underline;
 }
 .s3about{
@@ -455,7 +455,7 @@ ul {
 }
 
 /* Format Téléphone */
-@media screen and (max-width: px) and (max-width: 699px) {
+@media screen and (min-width: 370px) and (max-width: 699px) {
 .doub1{
     display: none;
 }
@@ -520,13 +520,11 @@ ul {
   margin-left: 10vw;
   flex-wrap: wrap;
 }
+.doub{
+  width: 40vw;
+}
 
-.moi{
-  height: 65px;
-}
-.mail{
-  font-size: 1em;
-}
+
 .logs{
   height: 30px;
 }
@@ -565,6 +563,9 @@ ul {
   height: 70vh;
   align-items: center;
 }
+.doub{
+  width: 40vw;
+}
 
 .partie1{
   align-items: center;
@@ -594,9 +595,7 @@ ul {
 .moi{
   height: 100px;
 }
-.mail{
-  font-size: 1.3em;
-}
+
 .logs{
   height: 30px;
 }
