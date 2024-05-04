@@ -322,11 +322,11 @@ body{
   align-items: center;
 }
 .logs{
-  height: 15px;
+  height: 2vw;
 }
 .reseau{
-  height: 25px;
-  width: 25px;
+  height: 4vw;
+  width: 4vw;
   border-radius: 50%;
   background-color: #D84B0F;
   display: flex;
@@ -334,10 +334,10 @@ body{
   align-items: center;
 }
 .ico{
-  height: 15px;
+  height: 1.5vw;
 }
 .icone{
-  height: 25px;
+  height: 3vw;
 }
 
 
@@ -474,19 +474,7 @@ ul {
 .aboutme{
   height: 30vh;
 }
-.logs{
-  height: 25px;
-}
-.reseau{
-  height: 35px;
-  width: 35px;
-}
-.ico{
-  height: 20px;
-}
-.icone{
-  height: 35px;
-}
+
 
 }
 
@@ -522,21 +510,6 @@ ul {
 }
 .doub{
   width: 40vw;
-}
-
-
-.logs{
-  height: 30px;
-}
-.reseau{
-  height: 45px;
-  width: 45px;
-}
-.ico{
-  height: 20px;
-}
-.icone{
-  height: 45px;
 }
 
 }
@@ -584,30 +557,12 @@ ul {
   width: 25vw;
 }
 
-
 .compet{
   width: 15vw;
 }
 
 .cont{
   width: 25vw;
-}
-.moi{
-  height: 100px;
-}
-
-.logs{
-  height: 30px;
-}
-.reseau{
-  height: 45px;
-  width: 45px;
-}
-.ico{
-  height: 20px;
-}
-.icone{
-  height: 45px;
 }
 
   
