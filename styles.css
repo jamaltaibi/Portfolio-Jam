@@ -445,13 +445,11 @@ ul {
 .droite{
   margin-left: 10vw;
 }
-
 .s2Partie2{
   width: 80vw;
   margin-left: 10vw;
   flex-wrap: wrap;
 }
-
 }
 
 /* Format Téléphone */
@@ -470,11 +468,9 @@ ul {
   margin-left: 10vw;
   flex-wrap: wrap;
 }
-
 .aboutme{
   height: 30vh;
 }
-
 
 }
 
@@ -539,7 +535,6 @@ ul {
 .doub{
   width: 40vw;
 }
-
 .partie1{
   align-items: center;
 }
@@ -556,7 +551,6 @@ ul {
 .about{
   width: 25vw;
 }
-
 .compet{
   width: 15vw;
 }
