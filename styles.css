@@ -1,8 +1,7 @@
 body{
   margin: 0;
-  color: black;
-  height: 100%;
-  width: 100%;
+ background-color: black;
+
 }
 
 /* Header */
@@ -36,16 +35,12 @@ body{
   align-items: center;
 
 }
-.doub1 {
-  height: 20vh;
-  width: 70vw;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.doub1{
+  display: none;
 }
 
 .log{
- width: 4vw;
+ width: 7vw;
 }
 .burger-icon{
   height: 40px;
@@ -216,9 +211,11 @@ body{
 }
 .s2Partie2{
   height: 60vh;
+  width: 80vw;
+  margin-left: 10vw;
   display: flex;
   justify-content:space-around;
-  align-items: center;
+  flex-wrap: wrap;
 }
 .text{
   height: 20vh;
@@ -442,45 +439,29 @@ ul {
   height: 45px;
 }
 
-/* Format petit Téléphone */
-@media screen and (max-width: 369px){
-.doub1{
-    display: none;
-  }
-.droite{
-  margin-left: 10vw;
-}
-.s2Partie2{
-  width: 80vw;
-  margin-left: 10vw;
-  flex-wrap: wrap;
-}
-}
 
-/* Format Téléphone */
-@media screen and (min-width: 370px) and (max-width: 699px) {
-.doub1{
-    display: none;
-}
-.droite{
-  margin-left: 10vw;
-}
-.partie1{
-  align-items: center;
-}
-.s2Partie2{
-  width: 80vw;
-  margin-left: 10vw;
-  flex-wrap: wrap;
-}
-.aboutme{
-  height: 30vh;
-}
+/* Format Mobile  */
+@media screen and (min-width: 480px) and (max-width: 769px) {
+  .log{
+    width: 5vw;
+   }
+
 
 }
 
 /* Format Tablette */
-@media screen and (min-width: 700px) and (max-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 900px){
+  .doub1 {
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .log{
+    width: 5vw;
+   }
+
 .menu{
   display: none;
 }
@@ -504,11 +485,7 @@ ul {
 .partie1{
   align-items: center;
 }
-.s2Partie2{
-  width: 80vw;
-  margin-left: 10vw;
-  flex-wrap: wrap;
-}
+
 .doub{
   width: 40vw;
 }
@@ -516,7 +493,18 @@ ul {
 }
 
 /* Format Ordinateur */
-@media screen and (min-width:1025px ) {
+@media screen and (min-width:901px ) {
+
+  .doub1 {
+    height: 20vh;
+    width: 70vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .log{
+    width: 5vw;
+   }
 .menu{
   display: none;
 }
@@ -545,6 +533,11 @@ ul {
 }
 .s2Partie2{
   width: 100vw;
+  height: 60vh;
+  margin-left: 0;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
 }
 #lang{
   height: 35vh;
@@ -564,5 +557,4 @@ ul {
   width: 25vw;
 }
 
-  
 }
