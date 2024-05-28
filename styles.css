@@ -109,7 +109,7 @@ body{
   border-radius: 50%;
   font-weight:bold;
   color: #D84B0F;
-  animation: rotate 10s linear infinite;
+  animation: rotate 25s linear infinite;
 }
 .s1Text{
   height: 20vh;
@@ -265,12 +265,16 @@ body{
   border-radius: 20px 20px 20px 20px;
   background-color:#D84B0F;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 .about{
   height: 40vh;
   width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact{
   height: 10vh;
@@ -283,7 +287,7 @@ body{
 }
 .infos{
   height: 10vh;
-  width: 40vw;
+  width: 35vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -306,15 +310,7 @@ body{
 .logs{
   height: 4vw;
 }
-.reseau{
-  height: 6.5vw;
-  width: 6.5vw;
-  border-radius: 50%;
-  background-color: #D84B0F;
-  display: flex;
-  justify-content: center ;
-  align-items: center;
-}
+
 .ico{
   height: 4vw;
 }
@@ -328,7 +324,7 @@ a {
   color: #D84B0F;
   display: block;
   transition: 0.3s;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 h1{
   font-size: 7vw;
@@ -388,6 +384,7 @@ h4{
   align-items: center;
 }
 .compet{
+  width: 30vw;
   margin: 0;
   color: black;
   font-weight: 700;
@@ -395,12 +392,14 @@ h4{
   text-align: center;
 }
 .s3about{
+  width: 35vw;
   font-size: 2.2vw;
   font-weight: 300;
   font-style: italic;
-  color: black;
+  color: white;
 }
 .meContact{
+  width: 35vw;
   font-size: 2.3vw;
   font-weight: 300;
   color:beige ;
@@ -532,10 +531,7 @@ ul {
   .logs {
     height: 3vw;
   }
-  .reseau {
-    height: 4.5vw;
-    width: 4.5vw;
-  }
+  
   .icone {
     height: 5vw;
   }
@@ -646,10 +642,7 @@ ul {
   .logs {
     height: 3vw;
   }
-  .reseau {
-    height: 4.5vw;
-    width: 4.5vw;
-  }
+ 
   .icone {
     height: 5vw;
   }
@@ -746,6 +739,7 @@ ul {
   }
   .compet {
     height: 25vh;
+    width: 18vw;
     font-size: 1.2vw;
   }
   .s3about {
@@ -760,10 +754,7 @@ ul {
   .logs {
     height: 2vw;
   }
-  .reseau {
-    height: 3vw;
-    width: 3vw;
-  }
+ 
   .icone {
     height: 3.5vw;
   }
